@@ -1,0 +1,29 @@
+html,body{
+scroll-behavior: smooth;
+}
+
+.navbar-brand {
+font-weight: bolder;
+color:#DC3545;
+cursor: pointer;
+}
+.bx{
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    display: grid;
+    place-items: center;
+    color:blue;
+    cursor: pointer;
+
+}
+box-icon{
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    display: grid;
+    place-items: center;
+    color:blue;
+    cursor: pointer;
+}
+

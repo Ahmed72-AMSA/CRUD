@@ -1,0 +1,90 @@
+<html>
+
+
+<head>
+<title>Your Cashier</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="./css/all.min.css">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/index.css">
+</head>
+
+
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand">E-Commerce Basket</a>
+      <i class="bx bxs-color  bx-spin-hover"></i>
+      <i class='bx bxs-brush bx-spin-hover'></i>
+
+
+
+    
+
+    </div>
+  </nav>
+
+
+  <div class="container py-5 mt-3 ">
+<label for="pn">name</label>
+<input type="text" class="form-control " id="pn">
+
+<label for="pp">price</label>
+<input type="text" class="form-control " id="pp">
+
+
+<label for="pc">category</label>
+<input type="text" class="form-control " id="pc">
+
+
+
+
+<label for="pd">description</label>
+<input type="text" class="form-control " id="pd">
+
+
+
+
+<button class="btn btn-danger mt-3" onclick="addNewElement()" id="add_btn">Add</button>
+
+<input type="text" class="form-control mt-4" placeholder="Search..." id="search">
+
+
+
+</div>
+
+
+
+
+<table class="table table-striped-columns table-group-divider table-light">
+<tr>
+<th>Name</th>
+<th>price</th>
+<th>category</th>
+<th>description</th>
+<th>Delete</th>
+<th>Update</th>
+
+
+
+</tr>
+
+<tbody id="tbody">
+
+
+
+</tbody>
+
+
+</table>
+
+  
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
